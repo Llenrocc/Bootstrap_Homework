@@ -6,10 +6,27 @@
     <title>About Me</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Six+Caps&display=swap" rel="stylesheet">
    
 </head>
 <body>
     <style>
+    body { 
+            background: url(/Users/llenroc/Desktop/IMG_1445.jpg);
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards; 
+            
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+
         html { 
     background: url(/Users/llenroc/Desktop/IMG_1445.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -17,18 +34,8 @@
     -o-background-size: cover;
     background-size: cover;
   }
-
-
-@keyframes fadeInAnimation { 
-	0% { 
-		opacity: 0; 
-	} 
-	100% { 
-		opacity: 1; 
-	} 
-} 
- 
     </style>
+    
     <div class="container">
         <nav class="navbar navbar-dark bg-dark">
             <!-- Navbar content -->
@@ -41,6 +48,19 @@
       <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Portfolio</a>
       <a class="nav-item nav-link" href="#">Contact</a>
+
+      <style>
+              .navbar-brand {
+        padding:0%;
+        border-radius:0px;
+        margin-bottom:0px;
+        font-size: 45px;
+        font-weight:bold;
+        font-family: 'Cinzel Decorative', cursive; 
+        flex-grow: 15;
+
+    }
+      </style>
     </div>
   </div>
 </nav>
