@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
+    <title>Bootstrap Homework</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Six+Caps&display=swap" rel="stylesheet">
@@ -34,10 +34,11 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
     </style>
     
     <div class="container-fluid">
-        <nav class="navbar navbar-dark bg-dark">
+        <nav class="navbar navbar-dark bg-dark" id="nav">
             <!-- Navbar content -->
             <a class="navbar-brand" href="#">Nathan Cornell</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +49,19 @@
       <a class="nav-item nav-link active" href="#">About<span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Portfolio</a>
       <a class="nav-item nav-link" href="#">Contact</a>
+    </div>
 
+      <div class="container">
+        <div class="jumbotron">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-offset-2 col-xs-8">
+                <h1>About Me</h1>
+                <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+              </div>
+              <div class="col-xs-2">
+                <img class="img-responsive" src="/Users/llenroc/Desktop/IMG_5103.jpg" alt="Photo of Me">
+              </div>
       <style>
         .container-fluid {
             width:100%;
@@ -64,22 +77,36 @@
             font-family: 'Six Caps', sans-serif;
             font-size:20px;
         }
-      </style>
+        #nav {
+            opacity:0.5;
+            filter:(opacity=50);
+            widows: 100%;
+            margin:0;
+            margin-bottom: 20px
+        }
 
+    .jumbotron {
+        flex-shrink: 50px;
+        align-self:flex-end;
+    }
 
+        </style>
 
+     
+
+      </div>
     </div>
   </div>
+</div>
 </nav>
                   </div>
                 </div>
               </nav>
           </nav>
           
-
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>   
+
 </body>
 </html>
