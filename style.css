@@ -1,9 +1,7 @@
 /* Background Image */
 html {  
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    height:100%;
+    margin:0;
   }
 
 body { 
@@ -11,6 +9,10 @@ body {
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 } 
 @keyframes fadeInAnimation { 
@@ -26,6 +28,10 @@ body {
     width:100%;
     margin:0; 
     padding:2rem;
+}
+
+.navbar {
+    width: 100%;
 }
 .navbar-brand {
     font-size: 60px;
