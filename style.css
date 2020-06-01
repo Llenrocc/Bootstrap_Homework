@@ -1,4 +1,54 @@
-.navbar {
+/* Background Image */
+html {  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body { 
+    background: url(/Users/llenroc/Desktop/IMG_1445.jpg);
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+    
+} 
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}
+
+.container {
     width:100%;
-    overflow: auto;
+    margin:0; 
+    padding:2rem;
+}
+.navbar-brand {
+    font-size: 60px;
+    font-weight:bold;
+    font-family: 'Six Caps', sans-serif; 
+
+}
+.navbar-nav {
+    font-family: 'Six Caps', sans-serif;
+    font-size:5rem;
+}
+#nav {
+    opacity:0.5;
+    filter:(opacity=50);
+    widows: 100%;
+    margin:0;
+    margin-bottom: 2rem;
+    
+}
+
+.jumbotron {
+background-color: #A9A9A9; 
+padding:2rem;
+
+
 }
