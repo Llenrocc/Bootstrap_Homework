@@ -49,6 +49,11 @@ body {
 .jumbotron {
 background-color: #A9A9A9; 
 padding:2rem;
+}
 
+h1 {
+    font-size:60ox;
+    font-weight:bold;
+    font-family: 'Six Caps', sans-serif;
 
 }
