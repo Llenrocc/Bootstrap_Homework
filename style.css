@@ -24,11 +24,14 @@ body {
     } 
 }
 
-.container-fluid{
+.container{
     display: flex;
     width:100%;
     margin:0; 
    
+}
+.row1 {
+    display:flex;
 }
 
 .navbarnavbar-darkbg-dark {
@@ -121,16 +124,7 @@ col {
   input[type=submit]:hover {
     background-color: #45a049;
   }
-
-  h2 {
-      font-family: 'Six Caps', sans-serif;
-      font-size: 50px;
-  }
   
-  p {
-      font-family:'Six Caps', sans-serif;
-      font-size: 30px;
-  }
   /* Style the container/contact section */
   .container1 {
     border-radius: 5px;
@@ -138,16 +132,15 @@ col {
     padding: 10px;
   }
   
-  /* Create two next to eachother */
+  /* Create two columns that float next to eachother */
   .column {
+
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-    font-family:'Six Caps', sans-serif;
-    font-size:20px;
   }
   
-  /* Clear after the columns */
+  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
