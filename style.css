@@ -81,15 +81,18 @@ col {
     font-family: 'Six Caps', sans-serif; 
 }
 
-/* Card Bodies */
+/* Card Deck */
 
 .card-deck {
    display: flex;
-   background-color: #A9A9A9;
    justify-content: space-evenly;
    flex-shrink: 3;
-
 }
+
+/* Card Bodies */
+
+
+
 
 /* Contact Us Page Css */
 
@@ -120,21 +123,20 @@ col {
   }
   
   /* Style the container/contact section */
-  .container {
+  .container1 {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
+  /* Create two next to eachother */
   .column {
-    float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
+  /* Clear after the columns */
   .row:after {
     content: "";
     display: table;
