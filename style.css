@@ -25,37 +25,50 @@ body {
 }
 
 .container {
+    display: flex;
     width:100%;
     margin:0; 
     padding:2rem;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
-.navbar {
+.navbarnavbar-darkbg-dark {
+    display: flex;
     width: 100%;
     margin-top: 0;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+   
 }
 .navbar-brand {
+    display: flex;
     font-size: 60px;
     font-weight:bold;
     font-family: 'Six Caps', sans-serif; 
 
 }
 .navbar-nav {
+    display: flex;
     font-family: 'Six Caps', sans-serif;
     font-size:5rem;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 #nav {
+    display: flex;
     opacity:0.5;
     filter:(opacity=50);
     width: 100%;
     margin:0;
     margin-bottom: 2rem;
-    
 }
 
+
 .jumbotron {
-background-color: #A9A9A9; 
-padding:2rem;
+    display: flex;
+    background-color: #A9A9A9; 
+    justify-content: center;
 }
 
 h1 {
@@ -74,6 +87,9 @@ col {
 /* Card Bodies */
 
 .card-deck {
-   justify-content: space-around;
+   display: flex;
+   background-color: #A9A9A9;
+   justify-content: space-evenly;
+   flex-shrink: 3;
 
 }
