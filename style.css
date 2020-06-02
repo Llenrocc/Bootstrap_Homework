@@ -70,3 +70,10 @@ h1 {
 col {
     font-family: 'Six Caps', sans-serif; 
 }
+
+/* Card Bodies */
+
+.card-deck {
+   justify-content: space-around;
+
+}
