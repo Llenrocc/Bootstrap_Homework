@@ -24,13 +24,11 @@ body {
     } 
 }
 
-.container {
+.container-fluid{
     display: flex;
     width:100%;
     margin:0; 
-    padding:2rem;
-    flex-flow: row wrap;
-    justify-content: flex-start;
+   
 }
 
 .navbarnavbar-darkbg-dark {
@@ -51,9 +49,7 @@ body {
 .navbar-nav {
     display: flex;
     font-family: 'Six Caps', sans-serif;
-    font-size:5rem;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+    font-size:5rem
 }
 #nav {
     display: flex;
@@ -68,11 +64,12 @@ body {
 .jumbotron {
     display: flex;
     background-color: #A9A9A9; 
-    justify-content: center;
+
+    
 }
 
 h1 {
-    font-size:60ox;
+    font-size:60px;
     font-weight:bold;
     font-family: 'Six Caps', sans-serif;
 
