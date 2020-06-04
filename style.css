@@ -69,6 +69,7 @@ body {
 
 .jumbotron {
     display:flex;
+    display:inline-block;
     width:100%;
     margin: 10px auto;
     justify-content:space-between;
