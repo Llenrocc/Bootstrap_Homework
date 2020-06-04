@@ -2,7 +2,9 @@
 html {  
     height:100%;
     width:100%;
-    margin:0;
+    margin:0 auto;
+    height: auto;
+    
   }
 
 body { 
@@ -10,8 +12,9 @@ body {
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
+    margin: 0 auto;
     height: auto;
-    width: 100%;
+    max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,9 +34,9 @@ body {
 .container {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     width:100%;
-    margin-left:25%;
-    margin-right:25%;
+    height:50%;
    
 }
 .row1 {
@@ -101,14 +104,16 @@ col {
 
 .card-deck {
    display: flex;
-   justify-content: space-evenly;
-   flex-shrink: 3;
+   flex-wrap: wrap;
+   justify-content: center;
+   
 }
 
-/* Card Bodies */
-
-
-
+.container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* Contact Us Page Css */
 
