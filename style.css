@@ -6,7 +6,7 @@ html {
   }
 
 body { 
-    background: url(/Users/llenroc/Desktop/IMG_1445.jpg);
+    background: url(/Assets.html/IMG_1445.jpg);
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
