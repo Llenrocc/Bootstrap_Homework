@@ -1,10 +1,4 @@
-
-
-
-
-
-
-/* body, html {
+body, html {
     z-index: 2;
     background-image: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
     animation: fadeInAnimation ease 3s;
@@ -45,8 +39,6 @@
         opacity: 1; 
     } 
 }
-
-*/
 
 /*.overlay {
     position: absolute;

@@ -1,25 +1,32 @@
-
-
-
-
-
-
-/* body, html {
-    z-index: 2;
-    background-image: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
+html, body {
+    margin: 0;
+    min-height: 100%;    
 }
 
-.page-text {
+body {
+    position: relative;
+    padding: 30px;
+    font-family: 'Euphoria Script', cursive;
+    background-image: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
+    background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0);
+background-color: rgba(0, 0, 0, 0.4);
+z-index:10;
+}
+
+.modal {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +40,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     border: 10px inset #fff;
-    font-family: 'Euphoria Script', cursive;
+    
 }
 
 
@@ -45,8 +52,6 @@
         opacity: 1; 
     } 
 }
-
-*/
 
 /*.overlay {
     position: absolute;

@@ -1,22 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
-
-
-
-
-
-/* body, html {
-    z-index: 2;
-    background-image: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1; 
-    animation-fill-mode: forwards; 
+section {
+    position: relative;
+    background: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
     background-position: center center;
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
     background-attachment: fixed;
-    background-size: cover;
+}
+
+section .layout {
+    position: relative;
+    top: 35%;
+    left: 30%;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba (0, 0, 0, 0.5);
+    color: rgb(255, 254, 254);
+}
+
+section .layout::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
+    background-attachment: fixed;
     filter: blur(3px);
-    -webkit-filter: blur(3px);
-    height: 100%;
+}
+
+section .layout h2 {
+    position: relative;
+}
+
+section .layout p {
+    position: relative;
+}
+
+section .layout button {
+    position: relative;
 }
 
 .page-text {
@@ -46,9 +73,7 @@
     } 
 }
 
-*/
-
-/*.overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -58,7 +83,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     background-color: rgba(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
-} */
+}
 
 
 /*
