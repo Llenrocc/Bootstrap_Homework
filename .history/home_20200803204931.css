@@ -1,4 +1,15 @@
-
+/*.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+*/
 
 body,html {
     background-image: url("Assets/Screen Shot 2020-08-01 at 12.36.11 PM.png");
@@ -9,10 +20,9 @@ body,html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    /*filter: blur(3px);
+    -webkit-filter: blur(3px);*/
     height: 100%;
-    z-index: -1;
 }
 
 .page-text {
@@ -29,7 +39,6 @@ body,html {
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     border: 10px inset #fff;
-    font-family: 'Euphoria Script', cursive;
 }
 
 
@@ -41,22 +50,3 @@ body,html {
         opacity: 1; 
     } 
 }
-
-/*.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 5;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-}
-*/
-
-
-
-
-
-
